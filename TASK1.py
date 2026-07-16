@@ -12,9 +12,7 @@ while True:
         print("Your move:",move.capitalize())
         if move == comp_move:
             print("It's a TIE")
-        elif (move == "rock" and comp_move == "scissors") or \
-            (move == "scissors" and comp_move == "paper") or \
-            (move == "paper" and comp_move == "rock"):
+        elif ((move == "rock" and comp_move == "scissors") or (move == "scissors" and comp_move == "paper") or (move == "paper" and comp_move == "rock")):
             print("Congratulations!! You Won")
         else:
             print("Computer Won")
